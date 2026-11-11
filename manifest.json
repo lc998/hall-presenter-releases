@@ -1,7 +1,26 @@
 {
   "format": 1,
-  "latest": "0.0.0",
-  "packages": {},
-  "releases": [],
+  "latest": "0.8.1",
+  "packages": {
+    "windows": {
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.1/HallPresenter-0.8.1-windows.zip",
+      "size": 168935831,
+      "sha256": "c83c897122600034c9a1a4041c94b7a473d66efa813f74e9d868c51ccea48149",
+      "executable": "HallPresenter.exe",
+      "version": "0.8.1"
+    }
+  },
+  "releases": [
+    {
+      "version": "0.8.1",
+      "date": "2026-11-11",
+      "notes": {
+        "sv": "- Nytt utseende: det som är markerat är grått i stället för grönt, ett reglage som är påslaget är vitt (mörkt tema) eller nästan svart (ljust tema), och huvudknapparna – Visa vald, Lägg till, Spara – är grå. Rött används fortfarande för det som visas live.\n- Aviseringarna öppnas nu som en lista som hänger under klockan. Den stängs med Esc, med ett klick någon annanstans eller med klockan igen.\n- Guiden i demoprojektet visar programmet med det nya namnet och utseendet.\n- Programmet fryser inte längre en kort stund när biblioteket har lästs in vid start: projektets sångfiler läses i bakgrunden.",
+        "en": "- A new look: what is selected is gray instead of green, a switch that is on is white (dark theme) or near-black (light theme), and the main buttons – Show selected, Add, Save – are gray. Red is still used for what is shown live.\n- Notifications now open as a list hanging under the bell. It closes with Esc, a click anywhere else, or the bell again.\n- The guide in the demo project shows the program with its new name and look.\n- The program no longer freezes for a moment when the library has loaded at start-up: the project's song files are read in the background.",
+        "es": "- Un aspecto nuevo: lo seleccionado es gris en lugar de verde, un interruptor activado es blanco (tema oscuro) o casi negro (tema claro), y los botones principales – Mostrar selección, Añadir, Guardar – son grises. El rojo sigue indicando lo que se muestra en directo.\n- Las notificaciones se abren ahora como una lista que cuelga de la campana. Se cierra con Esc, con un clic en cualquier otro sitio o con la campana de nuevo.\n- La guía del proyecto de demostración muestra el programa con su nuevo nombre y aspecto.\n- El programa ya no se congela un momento cuando la biblioteca termina de cargarse al iniciar: los archivos de canciones del proyecto se leen en segundo plano.",
+        "fr": "- Un nouvel aspect : ce qui est sélectionné est gris au lieu de vert, un interrupteur activé est blanc (thème sombre) ou presque noir (thème clair), et les boutons principaux – Afficher la sélection, Ajouter, Enregistrer – sont gris. Le rouge indique toujours ce qui est affiché en direct.\n- Les notifications s'ouvrent désormais dans une liste suspendue sous la cloche. Elle se ferme avec Échap, un clic ailleurs ou la cloche à nouveau.\n- Le guide du projet de démonstration montre le programme avec son nouveau nom et son nouvel aspect.\n- Le programme ne se fige plus un instant quand la bibliothèque a fini de se charger au démarrage : les fichiers de chants du projet sont lus en arrière-plan."
+      }
+    }
+  ],
   "news": []
 }

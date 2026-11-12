@@ -1,16 +1,26 @@
 {
   "format": 1,
-  "latest": "0.8.2",
+  "latest": "0.8.4",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.2/HallPresenter-0.8.2-windows.zip",
-      "size": 168861480,
-      "sha256": "2758a1eebd1a5e4112f8c793d6e0873baf2223396bfc7c143d1f7fcff21f640f",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.4/HallPresenter-0.8.4-windows.zip",
+      "size": 165479002,
+      "sha256": "59d6a5fd2d92bd9ca91a8f7810491be203cdb14b73f7aba4fc095622ef83b69b",
       "executable": "HallPresenter.exe",
-      "version": "0.8.2"
+      "version": "0.8.4"
     }
   },
   "releases": [
+    {
+      "version": "0.8.4",
+      "date": "2026-11-12",
+      "notes": {
+        "sv": "- I Live flyttar piltangenterna det som publiken ser, och bara den röda ramen runt det som visas ritas. Tangentbordet stannar i programfönstret när presentationen visas på en annan skärm.\n- En sångskärm som följer projektorn eller sångledaren bläddrar nu också till rätt sida när en sång har flera sidor.\n- Inställningar → Program var tom när fliken valdes. Nu visas allt, och Sök efter uppdatering säger svaret bredvid knappen.\n- Att byta mellan Redigera och Live och att välja bilder i redigeraren går snabbare.\n- Hämtningens förlopp i klockan blinkar inte längre.\n- Programmet installerar bara nya versioner som är signerade av Hall Presenters utgivare.\n- Webbutgången tål många och felaktiga anrop bättre: fel åtkomstkod spärrar en enhet allt längre, klockan säger till, och en ny inställning kan kräva koden även för att titta.\n- En säkerhetskopia eller en ny version kan inte längre skriva utanför sin mapp.",
+        "en": "- In Live the arrow keys move what the audience sees, and only the red frame around what is shown is drawn. The keyboard stays in the program window when the presentation is on another screen.\n- A song screen following the projector or the song leader now also turns to the right page when a song has several pages.\n- Preferences → Application was empty when its tab was chosen. Everything is shown now, and Check for updates gives its answer beside the button.\n- Switching between Edit and Live and choosing slides in the editor are faster.\n- A download's progress in the bell no longer flickers.\n- The program installs only new versions signed by Hall Presenter's publisher.\n- The web output copes better with many and wrong requests: a wrong access code locks a device out for longer each time, the bell says so, and a new setting can require the code to watch as well.\n- A backup or a new version can no longer write outside its folder.",
+        "es": "- En Live las flechas mueven lo que ve el público, y solo se dibuja el marco rojo alrededor de lo que se muestra. El teclado se queda en la ventana del programa cuando la presentación está en otra pantalla.\n- Una pantalla de canciones que sigue al proyector o al líder de canto ahora también pasa a la página correcta cuando una canción tiene varias páginas.\n- Preferencias → Aplicación aparecía vacía al elegir la pestaña. Ahora se muestra todo, y Buscar actualizaciones da su respuesta junto al botón.\n- Cambiar entre Editar y Live y elegir diapositivas en el editor es más rápido.\n- El progreso de una descarga en la campana ya no parpadea.\n- El programa solo instala versiones nuevas firmadas por el editor de Hall Presenter.\n- La salida web soporta mejor muchas peticiones y peticiones erróneas: un código de acceso incorrecto bloquea un dispositivo cada vez más tiempo, la campana lo avisa y un nuevo ajuste puede pedir el código también para ver.\n- Una copia de seguridad o una versión nueva ya no puede escribir fuera de su carpeta.",
+        "fr": "- En Live, les flèches déplacent ce que voit le public, et seul le cadre rouge autour de ce qui est affiché est dessiné. Le clavier reste dans la fenêtre du programme quand la présentation est sur un autre écran.\n- Un écran de chants qui suit le projecteur ou le meneur de chant passe désormais aussi à la bonne page quand un chant a plusieurs pages.\n- Préférences → Application était vide quand on choisissait l’onglet. Tout s’affiche maintenant, et Rechercher des mises à jour donne sa réponse à côté du bouton.\n- Passer de Modifier à Live et choisir des diapositives dans l’éditeur est plus rapide.\n- La progression d’un téléchargement dans la cloche ne clignote plus.\n- Le programme n’installe que les nouvelles versions signées par l’éditeur de Hall Presenter.\n- La sortie web résiste mieux aux requêtes nombreuses ou erronées : un mauvais code d’accès bloque un appareil chaque fois plus longtemps, la cloche le signale, et un nouveau réglage peut exiger le code aussi pour regarder.\n- Une sauvegarde ou une nouvelle version ne peut plus écrire en dehors de son dossier."
+      }
+    },
     {
       "version": "0.8.2",
       "date": "2026-11-12",
@@ -32,5 +42,6 @@
       }
     }
   ],
-  "news": []
+  "news": [],
+  "published": "2026-11-12T22:40:15Z"
 }

@@ -1,16 +1,26 @@
 {
   "format": 1,
-  "latest": "0.8.1",
+  "latest": "0.8.2",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.1/HallPresenter-0.8.1-windows.zip",
-      "size": 168935831,
-      "sha256": "c83c897122600034c9a1a4041c94b7a473d66efa813f74e9d868c51ccea48149",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.2/HallPresenter-0.8.2-windows.zip",
+      "size": 168861480,
+      "sha256": "2758a1eebd1a5e4112f8c793d6e0873baf2223396bfc7c143d1f7fcff21f640f",
       "executable": "HallPresenter.exe",
-      "version": "0.8.1"
+      "version": "0.8.2"
     }
   },
   "releases": [
+    {
+      "version": "0.8.2",
+      "date": "2026-11-12",
+      "notes": {
+        "sv": "- Visa ackord är påslaget för varje sång från början, också för sångerna i projekt som sparats tidigare. Ett projekt som sparas med den här versionen går inte att öppna i 0.8.1 eller äldre.\n- För en sång ligger Automatiskt svart/vitt nu bland de andra reglagen, bredvid Visa ackord.\n- Inställningar öppnas, byter flik och sparar snabbare, och listan under klockan öppnas på en bråkdel av tiden.\n- Siffran på klockan är större.\n- Knappen under Inställningar → Program heter nu Sök efter uppdatering, och papperskorgen säger Radera permanent.\n- Om en av de medföljande bakgrunderna var låst av ett annat program visades inget bibliotek alls. Nu läses biblioteket in ändå.",
+        "en": "- Show chords is on for every song from the start, including the songs in projects saved before. A project saved with this version cannot be opened in 0.8.1 or older.\n- For a song, Auto black/white is now with the other switches, next to Show chords.\n- Preferences opens, changes tab and saves faster, and the list under the bell opens in a fraction of the time.\n- The count on the bell is bigger.\n- The button under Preferences → Application is now called Check for updates.\n- If one of the bundled backgrounds was locked by another program, no library was shown at all. The library now loads regardless.",
+        "es": "- Mostrar acordes está activado desde el principio para cada canción, también para las canciones de proyectos guardados antes. Un proyecto guardado con esta versión no se puede abrir en la 0.8.1 o anteriores.\n- En una canción, Blanco/negro automático está ahora con los demás interruptores, junto a Mostrar acordes.\n- Preferencias se abre, cambia de pestaña y guarda más rápido, y la lista bajo la campana se abre en una fracción del tiempo.\n- El número sobre la campana es más grande.\n- El botón en Preferencias → Aplicación se llama ahora Buscar actualizaciones.\n- Si uno de los fondos incluidos estaba bloqueado por otro programa, no se mostraba ninguna biblioteca. Ahora la biblioteca se carga de todos modos.",
+        "fr": "- Afficher les accords est activé dès le départ pour chaque chant, y compris les chants des projets enregistrés auparavant. Un projet enregistré avec cette version ne peut pas être ouvert dans la 0.8.1 ou une version antérieure.\n- Pour un chant, Noir/blanc automatique se trouve désormais avec les autres interrupteurs, à côté d’Afficher les accords.\n- Les Préférences s’ouvrent, changent d’onglet et enregistrent plus vite, et la liste sous la cloche s’ouvre en une fraction du temps.\n- Le nombre sur la cloche est plus grand.\n- Le bouton dans Préférences → Application s’appelle désormais Rechercher des mises à jour.\n- Si l’un des arrière-plans fournis était verrouillé par un autre programme, aucune bibliothèque ne s’affichait. La bibliothèque se charge désormais quand même."
+      }
+    },
     {
       "version": "0.8.1",
       "date": "2026-11-11",

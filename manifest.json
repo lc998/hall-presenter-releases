@@ -1,23 +1,33 @@
 {
   "format": 1,
-  "latest": "0.8.16",
+  "latest": "0.8.18",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.16/HallPresenter.zip",
-      "size": 165510425,
-      "sha256": "60dff499763d858dd172390c09b9515a8b6b791c297bd3cbfe20a9efb71d2af8",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.18/HallPresenter.zip",
+      "size": 165511050,
+      "sha256": "3a0b829e61c69fb53258cb1f675bb31fae96f31d9bde47be31f3a9dedff0ca24",
       "executable": "HallPresenter.exe",
-      "version": "0.8.16"
+      "version": "0.8.18"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.16/HallPresenter-linux.tar.gz",
-      "size": 195948084,
-      "sha256": "92660c1f5515ef98b71c5fee410f92b3a1071e1af36690dd0e64231965a2cb24",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.18/HallPresenter-linux.tar.gz",
+      "size": 195951218,
+      "sha256": "751db886b00b1bcf077422a8ff045335a01d34ffb61ed77350b4eef222e6f7a5",
       "executable": "HallPresenter",
-      "version": "0.8.16"
+      "version": "0.8.18"
     }
   },
   "releases": [
+    {
+      "version": "0.8.18",
+      "date": "2026-11-16",
+      "notes": {
+        "sv": "- Förbättrad stabilitet.\n- Allmänna felrättningar.\n- Nya funktioner.",
+        "en": "- Stability improvements.\n- General bug fixes.\n- New features.",
+        "es": "- Mejoras de estabilidad.\n- Correcciones de errores generales.\n- Nuevas funciones.",
+        "fr": "- Amélioration de la stabilité.\n- Corrections de bugs générales.\n- Nouvelles fonctionnalités."
+      }
+    },
     {
       "version": "0.8.16",
       "date": "2026-11-16",
@@ -110,5 +120,5 @@
     }
   ],
   "news": [],
-  "published": "2026-11-15T23:24:39Z"
+  "published": "2026-11-16T06:03:42Z"
 }

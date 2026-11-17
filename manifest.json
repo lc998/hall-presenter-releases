@@ -1,20 +1,20 @@
 {
   "format": 1,
-  "latest": "0.8.18",
+  "latest": "0.8.20",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.18/HallPresenter.zip",
-      "size": 165511050,
-      "sha256": "3a0b829e61c69fb53258cb1f675bb31fae96f31d9bde47be31f3a9dedff0ca24",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.20/HallPresenter.zip",
+      "size": 165536634,
+      "sha256": "e81f1ba944ef80c64a3f6d3fabf3c9968ab010103e77e17a19dfe943101ac624",
       "executable": "HallPresenter.exe",
-      "version": "0.8.18"
+      "version": "0.8.20"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.18/HallPresenter-linux.tar.gz",
-      "size": 195951218,
-      "sha256": "751db886b00b1bcf077422a8ff045335a01d34ffb61ed77350b4eef222e6f7a5",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.20/HallPresenter-linux.tar.gz",
+      "size": 195971005,
+      "sha256": "87ec840ded48ccb23a32fc2e057970c8e28fb68d01e6dfe8b7011ed788a979fc",
       "executable": "HallPresenter",
-      "version": "0.8.18"
+      "version": "0.8.20"
     },
     "macos": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.18/HallPresenter-macos.tar.gz",
@@ -32,6 +32,16 @@
     }
   },
   "releases": [
+    {
+      "version": "0.8.20",
+      "date": "2026-11-17",
+      "notes": {
+        "sv": "- Förbättrad stabilitet.\n- Allmänna felrättningar.\n- Nya funktioner.",
+        "en": "- Stability improvements.\n- General bug fixes.\n- New features.",
+        "es": "- Mejoras de estabilidad.\n- Correcciones de errores generales.\n- Nuevas funciones.",
+        "fr": "- Amélioration de la stabilité.\n- Corrections de bugs générales.\n- Nouvelles fonctionnalités."
+      }
+    },
     {
       "version": "0.8.18",
       "date": "2026-11-16",
@@ -134,5 +144,5 @@
     }
   ],
   "news": [],
-  "published": "2026-11-16T06:42:58Z"
+  "published": "2026-11-17T04:07:03Z"
 }

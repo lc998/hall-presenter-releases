@@ -36,10 +36,10 @@
       "version": "0.8.20",
       "date": "2026-11-17",
       "notes": {
-        "sv": "- Förbättrad stabilitet.\n- Allmänna felrättningar.\n- Nya funktioner.",
-        "en": "- Stability improvements.\n- General bug fixes.\n- New features.",
-        "es": "- Mejoras de estabilidad.\n- Correcciones de errores generales.\n- Nuevas funciones.",
-        "fr": "- Amélioration de la stabilité.\n- Corrections de bugs générales.\n- Nouvelles fonctionnalités."
+        "sv": "Nyheter\n- Arkiv → Rensa biblioteket flyttar det som sällan används till papperskorgen.\n- Import av många sånger visar hur långt den har kommit och går snabbare.\n\nFelrättningar\n- Programmet kraschar inte längre med mycket stora bibliotek.\n- Långa sessioner får inte längre programmet att krascha.",
+        "en": "New\n- File → Clean up the library moves what is seldom used to the trash.\n- Importing many songs shows how far it has come and is faster.\n\nBug fixes\n- The program no longer crashes with very large libraries.\n- Long sessions no longer make the program crash.",
+        "es": "Novedades\n- Archivo → Limpiar la biblioteca mueve a la papelera lo que casi no se usa.\n- Importar muchas canciones muestra el progreso y es más rápido.\n\nCorrecciones\n- El programa ya no se cierra con bibliotecas muy grandes.\n- Las sesiones largas ya no cierran el programa.",
+        "fr": "Nouveautés\n- Fichier → Nettoyer la bibliothèque déplace vers la corbeille ce qui sert rarement.\n- L'importation de nombreux chants montre son avancement et est plus rapide.\n\nCorrections\n- Le programme ne se ferme plus avec de très grandes bibliothèques.\n- Les longues sessions ne ferment plus le programme."
       }
     },
     {
@@ -144,5 +144,5 @@
     }
   ],
   "news": [],
-  "published": "2026-11-19T19:59:01Z"
+  "published": "2026-11-19T21:07:50Z"
 }

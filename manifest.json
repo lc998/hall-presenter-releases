@@ -1,20 +1,20 @@
 {
   "format": 1,
-  "latest": "0.8.20",
+  "latest": "0.8.24",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.20/HallPresenter.zip",
-      "size": 165536634,
-      "sha256": "e81f1ba944ef80c64a3f6d3fabf3c9968ab010103e77e17a19dfe943101ac624",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.24/HallPresenter.zip",
+      "size": 165552219,
+      "sha256": "4700c74c5754da4f4a5fd1c226ba2ba539d4658a4019f50ce5d30fbdd1b55718",
       "executable": "HallPresenter.exe",
-      "version": "0.8.20"
+      "version": "0.8.24"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.20/HallPresenter-linux.tar.gz",
-      "size": 195971005,
-      "sha256": "87ec840ded48ccb23a32fc2e057970c8e28fb68d01e6dfe8b7011ed788a979fc",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.24/HallPresenter-linux.tar.gz",
+      "size": 195957623,
+      "sha256": "159a4494709175c44cf9de5b403b6f2f411807456e904f5ab7ccda030097af5d",
       "executable": "HallPresenter",
-      "version": "0.8.20"
+      "version": "0.8.24"
     },
     "macos": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.20/HallPresenter-macos.tar.gz",
@@ -32,6 +32,16 @@
     }
   },
   "releases": [
+    {
+      "version": "0.8.24",
+      "date": "2026-11-20",
+      "notes": {
+        "sv": "Nyheter\n- Arkiv → Rensa biblioteket visar vad som flyttas, och du kan behålla det du vill.\n- Fönster och dialogrutor öppnas snabbare.\n\nFelrättningar\n- Demoprojektets guide visar inte längre andra program i bilderna.",
+        "en": "New\n- File → Clean up the library shows what will be moved, and you can keep what you want.\n- Windows and dialogs open faster.\n\nBug fixes\n- The demo project's guide no longer shows other programs in its pictures.",
+        "es": "Novedades\n- Archivo → Limpiar la biblioteca muestra lo que se moverá, y puedes conservar lo que quieras.\n- Las ventanas y los cuadros de diálogo se abren más rápido.\n\nCorrecciones\n- La guía del proyecto de demostración ya no muestra otros programas en sus imágenes.",
+        "fr": "Nouveautés\n- Fichier → Nettoyer la bibliothèque montre ce qui sera déplacé, et vous pouvez garder ce que vous voulez.\n- Les fenêtres et les boîtes de dialogue s'ouvrent plus vite.\n\nCorrections\n- Le guide du projet de démonstration ne montre plus d'autres programmes dans ses images."
+      }
+    },
     {
       "version": "0.8.20",
       "date": "2026-11-17",
@@ -144,5 +154,5 @@
     }
   ],
   "news": [],
-  "published": "2026-11-19T21:07:50Z"
+  "published": "2026-11-20T04:34:41Z"
 }

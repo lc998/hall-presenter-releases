@@ -1,20 +1,20 @@
 {
   "format": 1,
-  "latest": "0.8.26",
+  "latest": "0.8.28",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.26/HallPresenter.zip",
-      "size": 165650506,
-      "sha256": "c64f5e271df4e45d99fbbafc3877ba766a1728c2622cf95fc65e53d92c163df7",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.28/HallPresenter.zip",
+      "size": 165798015,
+      "sha256": "e09e55a8e73540e1e7552151f08a148270467ec20fff8841807e7865434c8e37",
       "executable": "HallPresenter.exe",
-      "version": "0.8.26"
+      "version": "0.8.28"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.26/HallPresenter-linux.tar.gz",
-      "size": 196036571,
-      "sha256": "2ff81370254a2ab8f5647094c4bbd858f8f464cd8428bd99e670c9a3e79a5226",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.28/HallPresenter-linux.tar.gz",
+      "size": 196170944,
+      "sha256": "1c8b23b7a1ac318f9ea9fd6df0eeb13da970de6d37e4fb4a9605a5546c6cd33f",
       "executable": "HallPresenter",
-      "version": "0.8.26"
+      "version": "0.8.28"
     },
     "macos": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.26/HallPresenter-macos.tar.gz",
@@ -32,6 +32,16 @@
     }
   },
   "releases": [
+    {
+      "version": "0.8.28",
+      "date": "2026-11-23",
+      "notes": {
+        "sv": "Nyheter\n- Arkiv → Importera programsäkerhetskopia slår ihop biblioteken och visar båda versionerna sida vid sida när samma sång ändrats på båda datorerna.\n- Arkiv → Bibliotekets historik tar biblioteket tillbaka till hur det såg ut tidigare.\n\nFelrättningar\n- Varningen om att brandväggen stoppar webbvisningen kommer nu även efter byte av nätverk eller port.\n- Programmet kan inte längre frysa för gott när ett projekt byter namn eller programmet stängs medan det sparas.",
+        "en": "New\n- File → Import program backup merges the libraries and shows both versions side by side when the same song was changed on both computers.\n- File → Library history takes the library back to how it was earlier.\n\nBug fixes\n- The warning that the firewall blocks the web output now also comes after changing network or port.\n- The program can no longer freeze for good when a project is renamed or the program closed while it is being saved.",
+        "es": "Novedades\n- Archivo → Importar copia de seguridad del programa combina las bibliotecas y muestra ambas versiones una al lado de la otra cuando la misma canción se cambió en los dos ordenadores.\n- Archivo → Historial de la biblioteca devuelve la biblioteca a como estaba antes.\n\nCorrecciones\n- El aviso de que el cortafuegos bloquea la salida web aparece ahora también después de cambiar de red o de puerto.\n- El programa ya no puede quedarse bloqueado al cambiar el nombre de un proyecto o cerrarse mientras se guarda.",
+        "fr": "Nouveautés\n- Fichier → Importer une sauvegarde du programme fusionne les bibliothèques et montre les deux versions côte à côte quand le même chant a été modifié sur les deux ordinateurs.\n- Fichier → Historique de la bibliothèque ramène la bibliothèque à son état antérieur.\n\nCorrections\n- L’avertissement indiquant que le pare-feu bloque la sortie web apparaît désormais aussi après un changement de réseau ou de port.\n- Le programme ne peut plus se figer définitivement quand un projet est renommé ou le programme fermé pendant un enregistrement."
+      }
+    },
     {
       "version": "0.8.26",
       "date": "2026-11-21",
@@ -164,5 +174,5 @@
     }
   ],
   "news": [],
-  "published": "2026-11-21T22:54:47Z"
+  "published": "2026-11-23T06:43:00Z"
 }

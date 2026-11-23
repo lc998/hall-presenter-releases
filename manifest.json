@@ -1,20 +1,20 @@
 {
   "format": 1,
-  "latest": "0.8.28",
+  "latest": "0.8.30",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.28/HallPresenter.zip",
-      "size": 165798015,
-      "sha256": "e09e55a8e73540e1e7552151f08a148270467ec20fff8841807e7865434c8e37",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.30/HallPresenter.zip",
+      "size": 165809164,
+      "sha256": "ed2f6882bbe5b25313b18c9d504dc739928e76cbe14c8509bfd9683cac11fdd8",
       "executable": "HallPresenter.exe",
-      "version": "0.8.28"
+      "version": "0.8.30"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.28/HallPresenter-linux.tar.gz",
-      "size": 196170944,
-      "sha256": "1c8b23b7a1ac318f9ea9fd6df0eeb13da970de6d37e4fb4a9605a5546c6cd33f",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.30/HallPresenter-linux.tar.gz",
+      "size": 196175843,
+      "sha256": "8c32c98d8129bd85ffd75e4ee213dabc7a16ef6592b9a7d0a38b0a3c7fda2eba",
       "executable": "HallPresenter",
-      "version": "0.8.28"
+      "version": "0.8.30"
     },
     "macos": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.28/HallPresenter-macos.tar.gz",
@@ -32,6 +32,16 @@
     }
   },
   "releases": [
+    {
+      "version": "0.8.30",
+      "date": "2026-11-23",
+      "notes": {
+        "sv": "Nyheter\n- Sångsidan i webbläsaren fortsätter att visa sångerna om programmet stängs av, och kopplar upp sig själv igen när det startas.\n- Arkiv → Spara sånglistan för offline ger en fil med sångerna som öppnas utan programmet och utan nätverk.\n\nFelrättningar\n- Sångsidan visar nu den nya sånglistan när programmet har startats om.",
+        "en": "New\n- The song page in the browser keeps showing the songs if the program stops, and reconnects by itself when it starts again.\n- File → Save the song list for offline gives a file with the songs that opens without the program and without a network.\n\nBug fixes\n- The song page now shows the new song list after the program has been restarted.",
+        "es": "Novedades\n- La página de canciones del navegador sigue mostrando las canciones si el programa se detiene, y se vuelve a conectar sola cuando se inicia.\n- Archivo → Guardar la lista de canciones para usar sin conexión crea un archivo con las canciones que se abre sin el programa y sin red.\n\nCorrecciones\n- La página de canciones muestra ahora la nueva lista después de reiniciar el programa.",
+        "fr": "Nouveautés\n- La page des chants dans le navigateur continue d’afficher les chants si le programme s’arrête, et se reconnecte d’elle-même à son redémarrage.\n- Fichier → Enregistrer la liste des chants pour hors ligne crée un fichier avec les chants qui s’ouvre sans le programme et sans réseau.\n\nCorrections\n- La page des chants affiche maintenant la nouvelle liste après un redémarrage du programme."
+      }
+    },
     {
       "version": "0.8.28",
       "date": "2026-11-23",
@@ -174,5 +184,5 @@
     }
   ],
   "news": [],
-  "published": "2026-11-23T06:43:56Z"
+  "published": "2026-11-23T17:14:03Z"
 }

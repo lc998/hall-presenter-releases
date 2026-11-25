@@ -1,20 +1,20 @@
 {
   "format": 1,
-  "latest": "0.8.30",
+  "latest": "0.9.0",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.30/HallPresenter.zip",
-      "size": 165809164,
-      "sha256": "6d307c0f6324ccf232090b3f05ff1d35b03d9c57e46380b84821dfa0bca3821a",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.0/HallPresenter.zip",
+      "size": 166102383,
+      "sha256": "775bf472410f4c5a72dcb47908a8e1c58b1a8e7e290510c29fbde814cd45e1ac",
       "executable": "HallPresenter.exe",
-      "version": "0.8.30"
+      "version": "0.9.0"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.30/HallPresenter-linux.tar.gz",
-      "size": 196175843,
-      "sha256": "8c32c98d8129bd85ffd75e4ee213dabc7a16ef6592b9a7d0a38b0a3c7fda2eba",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.0/HallPresenter-linux.tar.gz",
+      "size": 196610386,
+      "sha256": "b36050cf62dd286fee78722ee9883393ddb5b0a996066975e4a6dcf2da0b1d24",
       "executable": "HallPresenter",
-      "version": "0.8.30"
+      "version": "0.9.0"
     },
     "macos": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.28/HallPresenter-macos.tar.gz",
@@ -32,6 +32,16 @@
     }
   },
   "releases": [
+    {
+      "version": "0.9.0",
+      "date": "2026-11-25",
+      "notes": {
+        "sv": "Nyheter\n- Profilknappen uppe till höger: logga in och dela sångbiblioteket med din grupp på alla era datorer.\n- Gruppens sånger kan läsas och redigeras på hallpresenter.com under Min Hall Presenter.\n\nFelrättningar\n- Bildhanteringen är uppdaterad och täpper till kända säkerhetshål.\n- Programmet startar andra verktyg på ett säkrare sätt.",
+        "en": "New\n- The profile button at the top right: sign in and share the song library with your group on all your computers.\n- Your group's songs can be read and edited on hallpresenter.com under My Hall Presenter.\n\nBug fixes\n- Picture handling is updated and closes known security holes.\n- The program starts other tools in a safer way.",
+        "es": "Novedades\n- El botón de perfil arriba a la derecha: inicia sesión y comparte la biblioteca de canciones con tu grupo en todos vuestros ordenadores.\n- Las canciones del grupo se pueden leer y editar en hallpresenter.com, en Mi Hall Presenter.\n\nCorrecciones\n- El manejo de imágenes está actualizado y cierra fallos de seguridad conocidos.\n- El programa inicia otras herramientas de forma más segura.",
+        "fr": "Nouveautés\n- Le bouton de profil en haut à droite : connectez-vous et partagez la bibliothèque de chants avec votre groupe sur tous vos ordinateurs.\n- Les chants du groupe se lisent et se modifient sur hallpresenter.com, sous Mon Hall Presenter.\n\nCorrections\n- La gestion des images est mise à jour et corrige des failles de sécurité connues.\n- Le programme lance les autres outils de façon plus sûre."
+      }
+    },
     {
       "version": "0.8.30",
       "date": "2026-11-23",
@@ -171,18 +181,8 @@
         "es": "- Mostrar acordes está activado desde el principio para cada canción, también para las canciones de proyectos guardados antes. Un proyecto guardado con esta versión no se puede abrir en la 0.8.1 o anteriores.\n- En una canción, Blanco/negro automático está ahora con los demás interruptores, junto a Mostrar acordes.\n- Preferencias se abre, cambia de pestaña y guarda más rápido, y la lista bajo la campana se abre en una fracción del tiempo.\n- El número sobre la campana es más grande.\n- El botón en Preferencias → Aplicación se llama ahora Buscar actualizaciones.\n- Si uno de los fondos incluidos estaba bloqueado por otro programa, no se mostraba ninguna biblioteca. Ahora la biblioteca se carga de todos modos.",
         "fr": "- Afficher les accords est activé dès le départ pour chaque chant, y compris les chants des projets enregistrés auparavant. Un projet enregistré avec cette version ne peut pas être ouvert dans la 0.8.1 ou une version antérieure.\n- Pour un chant, Noir/blanc automatique se trouve désormais avec les autres interrupteurs, à côté d’Afficher les accords.\n- Les Préférences s’ouvrent, changent d’onglet et enregistrent plus vite, et la liste sous la cloche s’ouvre en une fraction du temps.\n- Le nombre sur la cloche est plus grand.\n- Le bouton dans Préférences → Application s’appelle désormais Rechercher des mises à jour.\n- Si l’un des arrière-plans fournis était verrouillé par un autre programme, aucune bibliothèque ne s’affichait. La bibliothèque se charge désormais quand même."
       }
-    },
-    {
-      "version": "0.8.1",
-      "date": "2026-11-11",
-      "notes": {
-        "sv": "- Nytt utseende: det som är markerat är grått i stället för grönt, ett reglage som är påslaget är vitt (mörkt tema) eller nästan svart (ljust tema), och huvudknapparna – Visa vald, Lägg till, Spara – är grå. Rött används fortfarande för det som visas live.\n- Aviseringarna öppnas nu som en lista som hänger under klockan. Den stängs med Esc, med ett klick någon annanstans eller med klockan igen.\n- Guiden i demoprojektet visar programmet med det nya namnet och utseendet.\n- Programmet fryser inte längre en kort stund när biblioteket har lästs in vid start: projektets sångfiler läses i bakgrunden.",
-        "en": "- A new look: what is selected is gray instead of green, a switch that is on is white (dark theme) or near-black (light theme), and the main buttons – Show selected, Add, Save – are gray. Red is still used for what is shown live.\n- Notifications now open as a list hanging under the bell. It closes with Esc, a click anywhere else, or the bell again.\n- The guide in the demo project shows the program with its new name and look.\n- The program no longer freezes for a moment when the library has loaded at start-up: the project's song files are read in the background.",
-        "es": "- Un aspecto nuevo: lo seleccionado es gris en lugar de verde, un interruptor activado es blanco (tema oscuro) o casi negro (tema claro), y los botones principales – Mostrar selección, Añadir, Guardar – son grises. El rojo sigue indicando lo que se muestra en directo.\n- Las notificaciones se abren ahora como una lista que cuelga de la campana. Se cierra con Esc, con un clic en cualquier otro sitio o con la campana de nuevo.\n- La guía del proyecto de demostración muestra el programa con su nuevo nombre y aspecto.\n- El programa ya no se congela un momento cuando la biblioteca termina de cargarse al iniciar: los archivos de canciones del proyecto se leen en segundo plano.",
-        "fr": "- Un nouvel aspect : ce qui est sélectionné est gris au lieu de vert, un interrupteur activé est blanc (thème sombre) ou presque noir (thème clair), et les boutons principaux – Afficher la sélection, Ajouter, Enregistrer – sont gris. Le rouge indique toujours ce qui est affiché en direct.\n- Les notifications s'ouvrent désormais dans une liste suspendue sous la cloche. Elle se ferme avec Échap, un clic ailleurs ou la cloche à nouveau.\n- Le guide du projet de démonstration montre le programme avec son nouveau nom et son nouvel aspect.\n- Le programme ne se fige plus un instant quand la bibliothèque a fini de se charger au démarrage : les fichiers de chants du projet sont lus en arrière-plan."
-      }
     }
   ],
   "news": [],
-  "published": "2026-11-23T20:40:25Z"
+  "published": "2026-11-25T20:10:53Z"
 }

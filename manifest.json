@@ -1,20 +1,20 @@
 {
   "format": 1,
-  "latest": "0.9.6",
+  "latest": "0.9.8",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.6/HallPresenter.zip",
-      "size": 166165123,
-      "sha256": "5d58ad5ae5251bdf7c27a8215c5c22eb52d56e21d3d854bcdbcbc61fc0ce3ce0",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.8/HallPresenter.zip",
+      "size": 166216311,
+      "sha256": "bcdea7aa75cede47d306d3ff81cffcd359850b4aa6a21be059b0fe4dce76122f",
       "executable": "HallPresenter.exe",
-      "version": "0.9.6"
+      "version": "0.9.8"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.6/HallPresenter-linux.tar.gz",
-      "size": 196669303,
-      "sha256": "7314ca7ae474fdeda3f63c217475e6bb3567d3dd9616a9f466915352841eb915",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.8/HallPresenter-linux.tar.gz",
+      "size": 196722185,
+      "sha256": "74f54fd67c66d3d4268a4e0ac5ceef4b1e202f867289a6f92fc95dd2a4b9bd93",
       "executable": "HallPresenter",
-      "version": "0.9.6"
+      "version": "0.9.8"
     },
     "macos": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.4/HallPresenter-macos.tar.gz",
@@ -32,6 +32,16 @@
     }
   },
   "releases": [
+    {
+      "version": "0.9.8",
+      "date": "2026-11-27",
+      "notes": {
+        "sv": "Nyheter\n- Handboken finns nu också på engelska, spanska och franska, på det språk programmet visas på (Hjälp → Handbok).\n- En sång som ändras i en setlista på hallpresenter.com sparas som din version och kommer in i projektet vid nästa synkronisering.",
+        "en": "New\n- The manual is now also in English, Spanish and French, in the language the program is shown in (Help → Manual).\n- A song changed in a setlist on hallpresenter.com is saved as your version and comes into the project at the next sync.",
+        "es": "Novedades\n- El manual está ahora también en inglés, español y francés, en el idioma en que se muestra el programa (Ayuda → Manual).\n- Una canción cambiada en una setlist en hallpresenter.com se guarda como su versión y llega al proyecto en la siguiente sincronización.",
+        "fr": "Nouveautés\n- Le manuel existe maintenant aussi en anglais, en espagnol et en français, dans la langue du programme (Aide → Manuel).\n- Un chant modifié dans une setlist sur hallpresenter.com est enregistré comme votre version et arrive dans le projet à la synchronisation suivante."
+      }
+    },
     {
       "version": "0.9.6",
       "date": "2026-11-26",
@@ -171,18 +181,8 @@
         "es": "- Mejoras de estabilidad.\n- Correcciones de errores generales.\n- Nuevas funciones.",
         "fr": "- Amélioration de la stabilité.\n- Corrections de bugs générales.\n- Nouvelles fonctionnalités."
       }
-    },
-    {
-      "version": "0.8.8",
-      "date": "2026-11-14",
-      "notes": {
-        "sv": "- Förbättrad stabilitet.\n- Allmänna felrättningar.\n- Nya funktioner.",
-        "en": "- Stability improvements.\n- General bug fixes.\n- New features.",
-        "es": "- Mejoras de estabilidad.\n- Correcciones de errores generales.\n- Nuevas funciones.",
-        "fr": "- Amélioration de la stabilité.\n- Corrections de bugs générales.\n- Nouvelles fonctionnalités."
-      }
     }
   ],
   "news": [],
-  "published": "2026-11-26T20:18:11Z"
+  "published": "2026-11-26T23:20:05Z"
 }

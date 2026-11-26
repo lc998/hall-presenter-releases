@@ -1,20 +1,20 @@
 {
   "format": 1,
-  "latest": "0.9.0",
+  "latest": "0.9.2",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.0/HallPresenter.zip",
-      "size": 166102383,
-      "sha256": "2506a28eafcf00743a9d4196aee3e03362429d1d664816ef4ff7926f5ba64555",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.2/HallPresenter.zip",
+      "size": 166153428,
+      "sha256": "233e92d89ced9e06d7d18ca10b09dfa3e8437b4f665a1099a71a4740ca1fd875",
       "executable": "HallPresenter.exe",
-      "version": "0.9.0"
+      "version": "0.9.2"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.0/HallPresenter-linux.tar.gz",
-      "size": 196610386,
-      "sha256": "b36050cf62dd286fee78722ee9883393ddb5b0a996066975e4a6dcf2da0b1d24",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.2/HallPresenter-linux.tar.gz",
+      "size": 196658192,
+      "sha256": "32dd60886f9fe52239c2af1a6a1a60bb0b1ca05489ec32f5c19831c42e1056b4",
       "executable": "HallPresenter",
-      "version": "0.9.0"
+      "version": "0.9.2"
     },
     "macos": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.8.28/HallPresenter-macos.tar.gz",
@@ -32,6 +32,16 @@
     }
   },
   "releases": [
+    {
+      "version": "0.9.2",
+      "date": "2026-11-26",
+      "notes": {
+        "sv": "Nyheter\n- Dina projekt syns på hallpresenter.com under Mitt Hall Presenter, med ackord, och kan ändras där.\n- Arkiv → Öppna projekt från online… öppnar en setlista från webben som ett projekt.\n\nFelrättningar\n- En sång som saknar upphovsperson eller tonart kan få dem ifyllda utan att en ny version sparas.\n- Ett projekt som öppnas från webben lägger sångerna i huvudloopen.",
+        "en": "New\n- Your projects are shown on hallpresenter.com under My Hall Presenter, with chords, and can be changed there.\n- File → Open project from online… opens a setlist from the web as a project.\n\nBug fixes\n- A song with no author or key can have them filled in without saving a new version.\n- A project opened from the web puts its songs in the main loop.",
+        "es": "Novedades\n- Tus proyectos se muestran en hallpresenter.com en Mi Hall Presenter, con acordes, y se pueden cambiar allí.\n- Archivo → Abrir proyecto desde internet… abre una lista de la web como proyecto.\n\nCorrecciones\n- A una canción sin autor o tonalidad se le pueden añadir sin guardar una versión nueva.\n- Un proyecto abierto desde la web pone sus canciones en el bucle principal.",
+        "fr": "Nouveautés\n- Vos projets apparaissent sur hallpresenter.com dans Mon Hall Presenter, avec les accords, et peuvent y être modifiés.\n- Fichier → Ouvrir un projet en ligne… ouvre une liste du site comme projet.\n\nCorrections\n- Un chant sans auteur ou sans tonalité peut les recevoir sans enregistrer de nouvelle version.\n- Un projet ouvert depuis le site place ses chants dans la boucle principale."
+      }
+    },
     {
       "version": "0.9.0",
       "date": "2026-11-25",
@@ -171,18 +181,8 @@
         "es": "- En Live las flechas mueven lo que ve el público, y solo se dibuja el marco rojo alrededor de lo que se muestra. El teclado se queda en la ventana del programa cuando la presentación está en otra pantalla.\n- Una pantalla de canciones que sigue al proyector o al líder de canto ahora también pasa a la página correcta cuando una canción tiene varias páginas.\n- Preferencias → Aplicación aparecía vacía al elegir la pestaña. Ahora se muestra todo, y Buscar actualizaciones da su respuesta junto al botón.\n- Cambiar entre Editar y Live y elegir diapositivas en el editor es más rápido.\n- El progreso de una descarga en la campana ya no parpadea.\n- El programa solo instala versiones nuevas firmadas por el editor de Hall Presenter.\n- La salida web soporta mejor muchas peticiones y peticiones erróneas: un código de acceso incorrecto bloquea un dispositivo cada vez más tiempo, la campana lo avisa y un nuevo ajuste puede pedir el código también para ver.\n- Una copia de seguridad o una versión nueva ya no puede escribir fuera de su carpeta.",
         "fr": "- En Live, les flèches déplacent ce que voit le public, et seul le cadre rouge autour de ce qui est affiché est dessiné. Le clavier reste dans la fenêtre du programme quand la présentation est sur un autre écran.\n- Un écran de chants qui suit le projecteur ou le meneur de chant passe désormais aussi à la bonne page quand un chant a plusieurs pages.\n- Préférences → Application était vide quand on choisissait l’onglet. Tout s’affiche maintenant, et Rechercher des mises à jour donne sa réponse à côté du bouton.\n- Passer de Modifier à Live et choisir des diapositives dans l’éditeur est plus rapide.\n- La progression d’un téléchargement dans la cloche ne clignote plus.\n- Le programme n’installe que les nouvelles versions signées par l’éditeur de Hall Presenter.\n- La sortie web résiste mieux aux requêtes nombreuses ou erronées : un mauvais code d’accès bloque un appareil chaque fois plus longtemps, la cloche le signale, et un nouveau réglage peut exiger le code aussi pour regarder.\n- Une sauvegarde ou une nouvelle version ne peut plus écrire en dehors de son dossier."
       }
-    },
-    {
-      "version": "0.8.2",
-      "date": "2026-11-12",
-      "notes": {
-        "sv": "- Visa ackord är påslaget för varje sång från början, också för sångerna i projekt som sparats tidigare. Ett projekt som sparas med den här versionen går inte att öppna i 0.8.1 eller äldre.\n- För en sång ligger Automatiskt svart/vitt nu bland de andra reglagen, bredvid Visa ackord.\n- Inställningar öppnas, byter flik och sparar snabbare, och listan under klockan öppnas på en bråkdel av tiden.\n- Siffran på klockan är större.\n- Knappen under Inställningar → Program heter nu Sök efter uppdatering, och papperskorgen säger Radera permanent.\n- Om en av de medföljande bakgrunderna var låst av ett annat program visades inget bibliotek alls. Nu läses biblioteket in ändå.",
-        "en": "- Show chords is on for every song from the start, including the songs in projects saved before. A project saved with this version cannot be opened in 0.8.1 or older.\n- For a song, Auto black/white is now with the other switches, next to Show chords.\n- Preferences opens, changes tab and saves faster, and the list under the bell opens in a fraction of the time.\n- The count on the bell is bigger.\n- The button under Preferences → Application is now called Check for updates.\n- If one of the bundled backgrounds was locked by another program, no library was shown at all. The library now loads regardless.",
-        "es": "- Mostrar acordes está activado desde el principio para cada canción, también para las canciones de proyectos guardados antes. Un proyecto guardado con esta versión no se puede abrir en la 0.8.1 o anteriores.\n- En una canción, Blanco/negro automático está ahora con los demás interruptores, junto a Mostrar acordes.\n- Preferencias se abre, cambia de pestaña y guarda más rápido, y la lista bajo la campana se abre en una fracción del tiempo.\n- El número sobre la campana es más grande.\n- El botón en Preferencias → Aplicación se llama ahora Buscar actualizaciones.\n- Si uno de los fondos incluidos estaba bloqueado por otro programa, no se mostraba ninguna biblioteca. Ahora la biblioteca se carga de todos modos.",
-        "fr": "- Afficher les accords est activé dès le départ pour chaque chant, y compris les chants des projets enregistrés auparavant. Un projet enregistré avec cette version ne peut pas être ouvert dans la 0.8.1 ou une version antérieure.\n- Pour un chant, Noir/blanc automatique se trouve désormais avec les autres interrupteurs, à côté d’Afficher les accords.\n- Les Préférences s’ouvrent, changent d’onglet et enregistrent plus vite, et la liste sous la cloche s’ouvre en une fraction du temps.\n- Le nombre sur la cloche est plus grand.\n- Le bouton dans Préférences → Application s’appelle désormais Rechercher des mises à jour.\n- Si l’un des arrière-plans fournis était verrouillé par un autre programme, aucune bibliothèque ne s’affichait. La bibliothèque se charge désormais quand même."
-      }
     }
   ],
   "news": [],
-  "published": "2026-11-25T20:37:36Z"
+  "published": "2026-11-26T08:38:04Z"
 }

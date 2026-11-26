@@ -17,18 +17,18 @@
       "version": "0.9.8"
     },
     "macos": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.4/HallPresenter-macos.tar.gz",
-      "size": 113707151,
-      "sha256": "24632cf51c8d886c8228d854d9a122a6a5c50b56221185ee5bb5aa4580e5509e",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.8/HallPresenter-macos.tar.gz",
+      "size": 113759511,
+      "sha256": "bca1981650c656c4436fb42c91e3745f135b4e5107b7eff89b2f95499052717b",
       "executable": "HallPresenter",
-      "version": "0.9.4"
+      "version": "0.9.8"
     },
     "macos-intel": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.4/HallPresenter-macos-intel.tar.gz",
-      "size": 141521094,
-      "sha256": "82cce6e072afad0157ef020ac4c125cb4e63536d4a93a7454977d7cfa2c1ba6a",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.8/HallPresenter-macos-intel.tar.gz",
+      "size": 141573319,
+      "sha256": "72b6e2e3498f05bb9d8e0e5a5513a0b6b84720678483e37b825f9ad3f9e1955c",
       "executable": "HallPresenter",
-      "version": "0.9.4"
+      "version": "0.9.8"
     }
   },
   "releases": [
@@ -184,5 +184,5 @@
     }
   ],
   "news": [],
-  "published": "2026-11-26T23:20:05Z"
+  "published": "2026-11-26T23:30:56Z"
 }

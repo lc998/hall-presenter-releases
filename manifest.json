@@ -1,20 +1,20 @@
 {
   "format": 1,
-  "latest": "0.9.4",
+  "latest": "0.9.6",
   "packages": {
     "windows": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.4/HallPresenter.zip",
-      "size": 166164209,
-      "sha256": "1a3937c9f06b2cc03153deacd22058ac6939096b25da5d4745989e1a4ecb0b5f",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.6/HallPresenter.zip",
+      "size": 166165123,
+      "sha256": "fd3d6046c45c1652029d5b818a376f1faa2fe971d0404d521b41ebf08a82675e",
       "executable": "HallPresenter.exe",
-      "version": "0.9.4"
+      "version": "0.9.6"
     },
     "linux": {
-      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.4/HallPresenter-linux.tar.gz",
-      "size": 196668578,
-      "sha256": "a62c78e985992017e8561256d0b819712b05e750eee9da5b7150ed9a59d1d229",
+      "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.6/HallPresenter-linux.tar.gz",
+      "size": 196669303,
+      "sha256": "7314ca7ae474fdeda3f63c217475e6bb3567d3dd9616a9f466915352841eb915",
       "executable": "HallPresenter",
-      "version": "0.9.4"
+      "version": "0.9.6"
     },
     "macos": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.4/HallPresenter-macos.tar.gz",
@@ -32,6 +32,16 @@
     }
   },
   "releases": [
+    {
+      "version": "0.9.6",
+      "date": "2026-11-26",
+      "notes": {
+        "sv": "Nyheter\n- Sångskärmen i webbläsaren visar upp till fyra sidor bredvid varandra när raderna är korta, så att hela sången får plats på en skärm.\n\nFelrättningar\n- Att gå tillbaka till före en import fungerar även när två importer gjordes strax efter varandra.",
+        "en": "New\n- The song screen in the browser shows up to four pages side by side when the lines are short, so the whole song fits on one screen.\n\nBug fixes\n- Going back to before an import works even when two imports were made right after each other.",
+        "es": "Novedades\n- La pantalla de canciones del navegador muestra hasta cuatro páginas una al lado de otra cuando las líneas son cortas, para que toda la canción quepa en una pantalla.\n\nCorrecciones\n- Volver a antes de una importación funciona aunque se hayan hecho dos importaciones seguidas.",
+        "fr": "Nouveautés\n- L'écran des chants du navigateur affiche jusqu'à quatre pages côte à côte quand les lignes sont courtes, pour que tout le chant tienne sur un écran.\n\nCorrections\n- Revenir à l'état d'avant une importation fonctionne même quand deux importations ont été faites l'une après l'autre."
+      }
+    },
     {
       "version": "0.9.4",
       "date": "2026-11-26",
@@ -171,18 +181,8 @@
         "es": "- Mejoras de estabilidad.\n- Correcciones de errores generales.\n- Nuevas funciones.",
         "fr": "- Amélioration de la stabilité.\n- Corrections de bugs générales.\n- Nouvelles fonctionnalités."
       }
-    },
-    {
-      "version": "0.8.6",
-      "date": "2026-11-13",
-      "notes": {
-        "sv": "- Förbättrad stabilitet.\n- Allmänna felrättningar.\n- Nya funktioner.",
-        "en": "- Stability improvements.\n- General bug fixes.\n- New features.",
-        "es": "- Mejoras de estabilidad.\n- Correcciones de errores generales.\n- Nuevas funciones.",
-        "fr": "- Amélioration de la stabilité.\n- Corrections de bugs générales.\n- Nouvelles fonctionnalités."
-      }
     }
   ],
   "news": [],
-  "published": "2026-11-26T10:48:37Z"
+  "published": "2026-11-26T16:18:11Z"
 }

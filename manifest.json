@@ -5,7 +5,7 @@
     "windows": {
       "url": "https://github.com/lc998/hall-presenter-releases/releases/download/v.0.9.6/HallPresenter.zip",
       "size": 166165123,
-      "sha256": "fd3d6046c45c1652029d5b818a376f1faa2fe971d0404d521b41ebf08a82675e",
+      "sha256": "5d58ad5ae5251bdf7c27a8215c5c22eb52d56e21d3d854bcdbcbc61fc0ce3ce0",
       "executable": "HallPresenter.exe",
       "version": "0.9.6"
     },
@@ -184,5 +184,5 @@
     }
   ],
   "news": [],
-  "published": "2026-11-26T16:18:11Z"
+  "published": "2026-11-26T20:18:11Z"
 }
